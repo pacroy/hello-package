@@ -26,17 +26,21 @@ hello.hello()
    pyenv versions
    pyenv global 3.10.11
    pip install --upgrade pip
+   ```
+3. Install build and publish tools.
+
+   ```sh
    pip install --upgrade build
    pip install --upgrade twine
    ```
 
-3. Build.
+4. Build.
 
    ```sh
    python -m build
    ```
 
-4. Publish.
+5. Publish.
 
    ```sh
    python -m twine upload --repository testpypi dist/*
