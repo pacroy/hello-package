@@ -5,7 +5,7 @@ This is a hello world demo Python package.
 ## Install
 
 ```sh
-pip install -i https://test.pypi.org/simple/ pacroy-hello
+pip install --index https://test.pypi.org/simple/ --upgrade pacroy-hello
 ```
 
 ## Usage
@@ -49,6 +49,6 @@ hello.hello()
    Enter username `__token__`
    Enter password with your [TestPyPi API token](https://test.pypi.org/manage/account/token/).
 
-### References
+## References
 
 - [Packaging Python Projects — Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
