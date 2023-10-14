@@ -5,7 +5,7 @@ This is a hello world demo Python package.
 ## Install
 
 ```sh
-pip install -i https://test.pypi.org/simple/ pacroy-hello==0.0.1
+pip install -i https://test.pypi.org/simple/ pacroy-hello
 ```
 
 ## Usage
