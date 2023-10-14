@@ -4,6 +4,7 @@ This is a hello world demo package.
 
 ## Usage
 
-```sh
-npm install @pacroy/hello
+```js
+const hello = require("@pacroy/hello")
+hello()
 ```
