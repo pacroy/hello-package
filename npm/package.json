@@ -1,0 +1,19 @@
+{
+  "name": "@pacroy/hello",
+  "version": "1.0.0",
+  "description": "Hello world package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacroy/hello-package.git"
+  },
+  "author": "Par",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacroy/hello-package/issues"
+  },
+  "homepage": "https://github.com/pacroy/hello-package#readme"
+}
