@@ -22,6 +22,8 @@ hello()
 
    ```sh
    nvm install --lts --default --latest-npm
+   nvm ls
+   nvm use 18
    ```
 
 3. Install and configure [npmrc](https://www.npmjs.com/package/npmrc).
