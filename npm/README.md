@@ -1,6 +1,6 @@
 # hello
 
-This is a hello world demo package.
+This is a hello world demo Node.js package.
 
 ## Install
 
@@ -68,7 +68,7 @@ hello()
 - When publishing the package, if you get `403 Forbidden` with error message `You cannot publish over the previously published versions` then you need to bump up the package version first. You can use command `npm version patch|minor|major` or manually update the *package.json* file.
 - If you unpublished a package versiom, you wouldn't be able to publish it again witin 24 hours even with `--force` flag.
 
-### References
+## References
 
 - [Creating Node.js modules | npm Docs](https://docs.npmjs.com/creating-node-js-modules)
 - [Downloading and installing Node.js and npm | npm Docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
