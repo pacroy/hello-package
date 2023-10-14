@@ -70,5 +70,6 @@ hello()
 
 ### References
 
+- [Creating Node.js modules | npm Docs](https://docs.npmjs.com/creating-node-js-modules)
 - [Downloading and installing Node.js and npm | npm Docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [Unpublishing packages from the registry | npm Docs](https://docs.npmjs.com/unpublishing-packages-from-the-registry)
