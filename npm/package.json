@@ -1,6 +1,6 @@
 {
   "name": "@pacroy/hello",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Hello world package",
   "main": "index.js",
   "scripts": {

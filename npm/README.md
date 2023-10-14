@@ -29,6 +29,7 @@ hello()
    ```sh
    npm install --global npmrc
    npmrc
+   npmrc -c new_profile_name
    ```
 
 4. Configure npm registry.
