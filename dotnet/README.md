@@ -16,7 +16,23 @@ This is a hello world demo .NET Nuget package.
 
 ## Build & Publish
 
-1. aaa
+1. Download dotnet-install script.
+
+```sh
+curl -fsSLO https://dot.net/v1/dotnet-install.sh
+mv dotnet-install.sh ~
+chmod +x ~/dotnet-install.sh
+```
+
+2. Install the latest LTS version (6) of .NET SDK and its runtimes.
+
+```sh
+~/dotnet-install.sh --channel LTS
+dotnet --list-sdks
+dotnet new globaljson --sdk-version 6.0.415
+```
+
+3. aaa
 
 ## References
 
