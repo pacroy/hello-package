@@ -1,6 +1,6 @@
 {
   "name": "@pacroy/hello",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Hello world package",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/pacroy/hello-package/issues"
   },
-  "homepage": "https://github.com/pacroy/hello-package/tree/main/npm#readme"
+  "homepage": "https://github.com/pacroy/hello-package/tree/main/nodejs#readme"
 }
