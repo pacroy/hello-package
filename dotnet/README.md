@@ -38,7 +38,21 @@ dotnet new globaljson --sdk-version 6.0.415
 dotnet new classlib
 ```
 
-4. aaa
+Update package metadata in `dotnet.csproj` accordingly.
+
+4. Build.
+
+```sh
+dotnet build
+dotnet pack
+```
+
+5. Publish.
+
+```sh
+dotnet nuget push com.pacroy.hello.1.0.0.nupkg --api-key your_api_key 
+--source https://api.nuget.org/v3/index.json
+```
 
 ## References
 
