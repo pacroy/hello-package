@@ -43,15 +43,15 @@ Update package metadata in `dotnet.csproj` accordingly.
 4. Build.
 
 ```sh
-dotnet build
-dotnet pack
+dotnet build --configuration Release
+dotnet pack --configuration Release
 ```
 
 5. Publish.
 
 ```sh
-dotnet nuget push com.pacroy.hello.1.0.0.nupkg --api-key your_api_key 
---source https://api.nuget.org/v3/index.json
+dotnet nuget push bin/Release/com.pacroy.hello.1.0.0.nupkg --api-key your_api_key
+vyimc4wwgji --source https://api.nuget.org/v3/index.json
 ```
 
 ## References
