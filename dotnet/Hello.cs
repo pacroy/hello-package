@@ -1,4 +1,4 @@
-﻿namespace dotnet;
+﻿namespace hello;
 public class Hello
 {
     public void Greet() {
