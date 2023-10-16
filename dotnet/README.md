@@ -44,13 +44,14 @@ dotnet nuget push bin/Release/com.pacroy.hello.1.1.1.nupkg --source https://api.
 ## Install
 
 ```sh
-
+dotnet add package com.pacroy.hello
 ```
 
 ## Usage
 
-```python
-
+```csharp
+using hello;
+Hello.Greet();
 ```
 
 ## References
