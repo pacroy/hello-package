@@ -60,3 +60,4 @@ vyimc4wwgji --source https://api.nuget.org/v3/index.json
 - [Install .NET on Windows, Linux, and macOS | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/install/)
 - [global.json overview - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/tools/global-json)
 - [Individual accounts - NuGet.org | Microsoft Learn](https://learn.microsoft.com/en-us/nuget/nuget-org/individual-accounts#add-a-new-individual-account)
+- [Install and use a NuGet package with the dotnet CLI | Microsoft Learn](https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-using-the-dotnet-cli)
