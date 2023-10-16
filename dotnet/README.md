@@ -2,18 +2,6 @@
 
 This is a hello world demo .NET Nuget package.
 
-## Install
-
-```sh
-
-```
-
-## Usage
-
-```python
-
-```
-
 ## Build & Publish
 
 1. Download dotnet-install script.
@@ -52,6 +40,18 @@ dotnet pack --configuration Release
 ```sh
 dotnet nuget push bin/Release/com.pacroy.hello.1.0.0.nupkg --api-key your_api_key
 vyimc4wwgji --source https://api.nuget.org/v3/index.json
+```
+
+## Install
+
+```sh
+
+```
+
+## Usage
+
+```python
+
 ```
 
 ## References
