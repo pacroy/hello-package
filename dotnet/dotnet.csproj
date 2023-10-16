@@ -10,6 +10,7 @@
     <Company>pacroy</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <DefaultItemExcludes>$(DefaultItemExcludes);test\**</DefaultItemExcludes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   
   <ItemGroup>
