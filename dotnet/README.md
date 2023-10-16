@@ -47,6 +47,8 @@ dotnet nuget push bin/Release/com.pacroy.hello.1.1.2.nupkg --source https://api.
 dotnet add package com.pacroy.hello
 ```
 
+To upgrade to the latest package version, you may need to use command `dotnet nuget locals all --clear` first.
+
 ## Usage
 
 ```csharp
