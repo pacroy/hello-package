@@ -1,7 +1,7 @@
 ﻿namespace hello;
-public class Hello
+public static class Hello
 {
-    public void Greet() {
+    public static void Greet() {
         Console.WriteLine("This is a message from hello package");
     }
 }

@@ -38,8 +38,7 @@ dotnet pack --configuration Release
 5. Publish.
 
 ```sh
-dotnet nuget push bin/Release/com.pacroy.hello.1.0.0.nupkg --api-key your_api_key
-vyimc4wwgji --source https://api.nuget.org/v3/index.json
+dotnet nuget push bin/Release/com.pacroy.hello.1.1.0.nupkg --source https://api.nuget.org/v3/index.json --api-key your_api_key
 ```
 
 ## Install
