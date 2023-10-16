@@ -1,2 +1,2 @@
 ﻿using hello;
-new Hello().Greet();
+Hello.Greet();
