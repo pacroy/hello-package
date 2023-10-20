@@ -16,8 +16,11 @@ This is a hello world demo Java (Maven) package.
    - **SCM URL**: Your Git repository URL e.g. `https://github.com/pacroy/hello-package.git`
    - **Username**: Your JIRA username
 
+    Note: See my issue [OSSRH-96002](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-96002) as an example.
+
 3. Wait until the *Bot Central-OSSRH* comment with instruction to add a DNS `TXT`` record (In my case, it took 8 minutes).
 4. Add DNS `TXT` record per instruction and set ticket status to `Open`.
+5. Wait until the *Bot Central-OSSRH* prepare your new group ID and comment with instruction on how to publish (In my case, it took ~30 minutes).
 
 ## Build & Publish
 
