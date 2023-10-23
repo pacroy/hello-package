@@ -49,6 +49,13 @@ from pacroy_hello import hello
 hello.hello()
 ```
 
+## Test
+
+```sh
+cd test
+python test.py
+```
+
 ## References
 
 - [Packaging Python Projects — Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)

@@ -39,13 +39,7 @@ This is a hello world demo Node.js package.
    npm whomai
    ```
 
-5. Test the package.
-
-   ```sh
-   npm test
-   ```
-
-6. Publish the package.
+5. Publish the package.
 
    ```sh
    npm publish --access public
@@ -68,6 +62,13 @@ npm install @pacroy/hello
 ```js
 const hello = require("@pacroy/hello")
 hello()
+```
+
+## Test
+
+```sh
+cd test
+node test.js
 ```
 
 ## References
