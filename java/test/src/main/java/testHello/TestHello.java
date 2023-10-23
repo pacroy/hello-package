@@ -1,4 +1,4 @@
-package hello;
+package testHello;
 import com.pacroy.hello.Hello;
 
 public class TestHello {
