@@ -61,3 +61,4 @@ This is a hello world demo Java (Maven) package.
 - [Maciej Walkowiak | How to publish a Java library to Maven Central - Complete Guide](https://maciejwalkowiak.com/blog/publish-java-library-maven-central/)
 - [Publish Java Packages to Maven Central Repository | DevDungeon](https://www.devdungeon.com/content/publish-java-packages-maven-central-repository)
 - [Beginner guide to Maven Central publishing - DEV Community](https://dev.to/julbrs/beginner-guide-to-maven-central-publishing-3jio)
+- [Apache Maven - The Central Repository Documentation](https://central.sonatype.org/publish/publish-maven/#deployment)
