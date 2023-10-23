@@ -35,13 +35,59 @@ This is a hello world demo Java (Maven) package.
 
     Choose (O)kay and enter a passphrase to protect your key.
 
-2. aaa
+2. List keys using command `gpg --list-signatures --keyid-format 0xshort`. 
+   - Take note of the keyname that look like `0x12345678` on the line beginning with `sig 3`.
+   - Take note the key id on the next line just after the line beginning with `pub`.
 
+3. Upload public key to server.
 
+```sh
+gpg --keyserver keyserver.ubuntu.com --send-keys key_id
+```
+
+### OSSRH Credential
+
+1. Add the following to `~/.m2/settings.xml`.
+
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>ossrh</id> 
+      <username>your_sonatype_username</username>
+      <password>your_sonatype_password</password>
+    </server>
+  </servers>
+</settings>
+```
 
 ## Build & Publish
 
-1. aaa
+1. Update `pom.xml` accordingly.
+
+   - project.groupID
+   - project.artifactId
+   - project.name
+   - project.description
+   - project.name
+   - project.url
+   - project.organization
+   - project.licenses
+   - project.developers
+   - project.scm
+   - project.profiles.profile[id=release].plugins.plugin[artifactId=maven-gpg-plugin].executions.execution.configuration.keyname
+
+2. Set version.
+
+```sh
+mvn versions:set -DnewVersion=1.0.0
+```
+
+3. Build and publish.
+
+```sh
+mvn clean deploy -Prelease
+```
 
 ## Install
 
