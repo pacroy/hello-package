@@ -91,14 +91,20 @@ mvn clean deploy -Prelease
 
 ## Install
 
-```sh
+Include this dependency in `pom.xml`.
 
+```xml
+<dependency>
+  <groupId>com.pacroy</groupId>
+  <artifactId>hello</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
 
 ## Usage
 
 ```java
-
+Hello.greet();
 ```
 
 ## References
@@ -108,3 +114,4 @@ mvn clean deploy -Prelease
 - [Publish Java Packages to Maven Central Repository | DevDungeon](https://www.devdungeon.com/content/publish-java-packages-maven-central-repository)
 - [Beginner guide to Maven Central publishing - DEV Community](https://dev.to/julbrs/beginner-guide-to-maven-central-publishing-3jio)
 - [Apache Maven - The Central Repository Documentation](https://central.sonatype.org/publish/publish-maven/#deployment)
+- [wiiisdom/biar-manager: BIAR BI ARchive File library](https://github.com/wiiisdom/biar-manager)
