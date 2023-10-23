@@ -104,7 +104,21 @@ Include this dependency in `pom.xml`.
 ## Usage
 
 ```java
+import com.pacroy.hello.Hello;
+
+...
+
 Hello.greet();
+```
+
+## Test
+
+You can build and run the test project:
+
+```sh
+cd test
+mvn clean install
+mvn exec:java
 ```
 
 ## References
