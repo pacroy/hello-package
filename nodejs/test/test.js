@@ -1,2 +1,2 @@
-const hello = require("..")
+const hello = require('@pacroy/hello')
 hello()
