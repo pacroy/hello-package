@@ -22,6 +22,23 @@ This is a hello world demo Java (Maven) package.
 4. Add DNS `TXT` record per instruction and set ticket status to `Open`.
 5. Wait until the *Bot Central-OSSRH* prepare your new group ID and comment with instruction on how to publish (In my case, it took ~30 minutes).
 
+### GPG Key
+
+1. Generate a new GPG key using command `gpg --full-generate-key` and choose the following options:
+
+   - **Kind of key**: `(1) RSA and RSA`
+   - **Key size**: `4096`
+   - **Validity period**: For example `1y`
+   - **Real name**: Input your first name and last name
+   - **Email address**: Your email addess or use GitHub one e.g. `username@users.noreply.github.com`
+   - **Comment**: Label your key in case you have many key so you can remember the purpose of each one e.g. `username@hostname`.
+
+    Choose (O)kay and enter a passphrase to protect your key.
+
+2. aaa
+
+
+
 ## Build & Publish
 
 1. aaa
