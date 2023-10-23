@@ -2,19 +2,6 @@
 
 This is a hello world demo Python package.
 
-## Install
-
-```sh
-pip install --index https://test.pypi.org/simple/ --upgrade pacroy-hello
-```
-
-## Usage
-
-```python
-from pacroy_hello import hello
-hello.hello()
-```
-
 ## Build & Publish
 
 1. Install [Python version manager (pyenv)](https://github.com/pyenv/pyenv#installation).
@@ -48,6 +35,19 @@ hello.hello()
 
    Enter username `__token__`
    Enter password with your [TestPyPi API token](https://test.pypi.org/manage/account/token/).
+
+## Install
+
+```sh
+pip install --index https://test.pypi.org/simple/ --upgrade pacroy-hello
+```
+
+## Usage
+
+```python
+from pacroy_hello import hello
+hello.hello()
+```
 
 ## References
 

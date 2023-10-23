@@ -2,19 +2,6 @@
 
 This is a hello world demo Node.js package.
 
-## Install
-
-```sh
-npm install @pacroy/hello
-```
-
-## Usage
-
-```js
-const hello = require("@pacroy/hello")
-hello()
-```
-
 ## Build & Publish
 
 1. Install [Node version manager (nvm)](https://github.com/nvm-sh/nvm#installing-and-updating).
@@ -69,6 +56,19 @@ hello()
 - When logging in npm registry using automatic method, if you get an error message `xdg-open: not found` then try to install it using command `sudo apt install xdg-utils` first.
 - When publishing the package, if you get `403 Forbidden` with error message `You cannot publish over the previously published versions` then you need to bump up the package version first. You can use command `npm version patch|minor|major` or manually update the *package.json* file.
 - If you unpublished a package versiom, you wouldn't be able to publish it again witin 24 hours even with `--force` flag.
+
+## Install
+
+```sh
+npm install @pacroy/hello
+```
+
+## Usage
+
+```js
+const hello = require("@pacroy/hello")
+hello()
+```
 
 ## References
 
